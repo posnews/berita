@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Berita Terbaru Hari Ini - PosNews</title>
+
+<meta name="description" content="Kumpulan berita terbaru hari ini dari berbagai kategori seperti nasional, teknologi, ekonomi, olahraga, dan hiburan dari berbagai sumber terpercaya.">
+<meta name="keywords" content="berita terbaru, berita hari ini, berita nasional, teknologi, ekonomi, olahraga">
+<meta name="author" content="PosNews">
+
+<link rel="canonical" href="https://posnews.github.io/berita/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Berita Terbaru Hari Ini - PosNews">
+<meta property="og:description" content="Kumpulan berita terbaru dari berbagai sumber media terpercaya.">
+<meta property="og:url" content="https://posnews.github.io/berita/">
+<meta property="og:site_name" content="PosNews">
+<meta property="og:image" content="https://posnews.github.io/logo.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Berita Terbaru Hari Ini - PosNews">
+<meta name="twitter:description" content="Kumpulan berita terbaru dari berbagai sumber media terpercaya.">
+<meta name="twitter:image" content="https://posnews.github.io/logo.png">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f2f2f2;
+color:#333;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#111;
+color:white;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#ff3b3b;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+.menu a:hover{
+color:#ff3b3b;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1504711434969-e33886168f5c");
+background-size:cover;
+background-position:center;
+height:220px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:30px 20px;
+}
+
+/* GRID NEWS */
+
+.news-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+.news-card{
+background:white;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.news-card:hover{
+transform:translateY(-5px);
+box-shadow:0 6px 20px rgba(0,0,0,0.15);
+}
+
+.news-img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.news-content{
+padding:15px;
+}
+
+.news-title{
+font-size:18px;
+margin-bottom:10px;
+}
+
+.news-title a{
+text-decoration:none;
+color:#111;
+}
+
+.news-title a:hover{
+color:#e63946;
+}
+
+.news-desc{
+font-size:14px;
+color:#666;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:#bbb;
+text-align:center;
+padding:25px;
+margin-top:40px;
+font-size:14px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:600px){
+
+.hero h1{
+font-size:26px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+<div class="logo">PosNews</div>
+
+<div class="menu">
+<a href="/">Home</a>
+<a href="/berita/">Berita</a>
+<a href="#">Teknologi</a>
+<a href="#">Ekonomi</a>
+<a href="#">Olahraga</a>
+</div>
+</div>
+
+<div class="hero">
+<h1>Berita Terbaru Hari Ini</h1>
+</div>
+
+<div class="container">
+
+<div class="news-grid">
+
+<div class="news-card">
+<img class="news-img" src="https://images.unsplash.com/photo-1495020689067-958852a7765e">
+<div class="news-content">
+<div class="news-title">
+<a href="#">Judul Berita Pertama</a>
+</div>
+<div class="news-desc">
+Ringkasan berita pertama ditampilkan di sini sebagai preview artikel.
+</div>
+</div>
+</div>
+
+<div class="news-card">
+<img class="news-img" src="https://images.unsplash.com/photo-1504711331083-9c895941bf81">
+<div class="news-content">
+<div class="news-title">
+<a href="#">Judul Berita Kedua</a>
+</div>
+<div class="news-desc">
+Ringkasan berita kedua untuk menarik pembaca membuka artikel lengkap.
+</div>
+</div>
+</div>
+
+<div class="news-card">
+<img class="news-img" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2">
+<div class="news-content">
+<div class="news-title">
+<a href="#">Judul Berita Ketiga</a>
+</div>
+<div class="news-desc">
+Ringkasan berita ketiga dari berbagai sumber media terpercaya.
+</div>
+</div>
+</div>
+
+<div class="news-card">
+<img class="news-img" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+<div class="news-content">
+<div class="news-title">
+<a href="#">Judul Berita Keempat</a>
+</div>
+<div class="news-desc">
+Ringkasan berita keempat sebagai preview sebelum membaca artikel.
+</div>
+</div>
+</div>
+
+<div class="news-card">
+<img class="news-img" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+<div class="news-content">
+<div class="news-title">
+<a href="#">Judul Berita Kelima</a>
+</div>
+<div class="news-desc">
+Ringkasan berita kelima dari berbagai kategori berita terbaru.
+</div>
+</div>
+</div>
+
+<div class="news-card">
+<img class="news-img" src="https://images.unsplash.com/photo-1522199710521-72d69614c702">
+<div class="news-content">
+<div class="news-title">
+<a href="#">Judul Berita Keenam</a>
+</div>
+<div class="news-desc">
+Preview berita terbaru yang bisa dibaca secara lengkap.
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 PosNews - Portal Berita Online
+</footer>
+
+</body>
+</html>
