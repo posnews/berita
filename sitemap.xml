@@ -3,32 +3,44 @@
   
   <url>
     <loc>https://posnews.github.io/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>https://posnews.github.io/berita/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://posnews.github.io/berita/judul-berita-pertama/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <loc>https://posnews.github.io/berita/catatan-komunitas-game-mahjong-ways-jadi-topik-diskusi.html</loc>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://posnews.github.io/berita/judul-berita-kedua/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <loc>https://posnews.github.io/berita/laporan-diskusi-pemain-mahjong-ways.html</loc>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
-  <!-- Tambahkan URL lainnya jika ada halaman lain -->
-  
+  <url>
+    <loc>https://posnews.github.io/berita/membedah-volatilitas-mahjong-ways-antara-persepsi-pemain-dan-realita-sistem.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://posnews.github.io/berita/mengaitkan-rtp-mahjong-ways-dengan-behavioral-economics.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
